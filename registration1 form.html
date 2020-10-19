@@ -1,0 +1,239 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WilSon Sports Good</title>
+<link rel="icon" type="image/jpg" href="images/log3.jpg">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+</head>
+<style>
+body
+{
+  background:url(images/background4.png); 
+  background-size:cover;
+	
+}
+</style>
+
+<script>
+function registered()
+{
+    var a=document.fm.ps.value;
+    var b=document.fm.ps2.value;
+    if(a!=b)
+    {
+        alert("Your Password did not Match.")
+        alert("Fill the Form Once again.")
+
+    }
+
+}
+</script>
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-">
+                <ul class="navbar-nav">
+                    <li class="ml-3">
+                        <img src="images/log3.jpg" width="40" height="35" class="img-responsive mt-1">
+                        </li>
+            
+                </ul>
+                <a class="navbar-brand" href="#">Wilson Sporting Goods</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto ">
+                    
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="ContactUs.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="online shop.html">Online Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="registration1 form.html">Registration</a>
+                      </li>
+        
+                      <li class="nav-item">
+                          <a class="nav-link" href="brand.html">Brands</a>
+                        </li>
+                     
+                     
+                   </ul>
+                </div>
+              </nav>
+            
+            
+            <!--Navbar-->
+            
+    <form name="fm" action="">
+  <div class="container md-form md-outline mt-0">
+  <center>
+    <h1 class="h1-responsive" style="font-weight: bold; text-decoration: underline; color: midnightblue;">Registeration Form</h1>
+    <div class="md-form md-outline">
+        <input type="text" required pattern= "^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$"; id="email" class="form-control">
+        <label for="email">Your Email Address</label>
+      </div>
+      
+      <div class="md-form md-outline">
+          <input type="text" name="ps" required pattern="^[A-Za-z0-9]{1,32}$"; minlength="8" id="email" class="form-control">
+          <label for="email">Password</label>
+        </div>
+  
+        <div class="md-form md-outline">
+            <input type="text" name="ps2" required pattern="^[A-Za-z0-9]{1,32}$"; minlength="8" id="email" class="form-control">
+            <label for="email">Re-Enter Password</label>
+          </div>
+    
+    <hr>
+
+      <button type="submit" onclick="registered()" >Register</button>
+  </div>
+
+ 
+   
+  </div>
+</form>
+
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark">
+
+        <div style="background-color: #6351ce;">
+          <div class="container">
+      
+            <!-- Grid row-->
+            <div class="row py-4 d-flex align-items-center mt-1">
+      
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                <h6 class="mb-0">Get connected with us on social networks!</h6>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-6 col-lg-7 text-center text-md-right">
+      
+                <!-- Facebook -->
+                <a class="fb-ic" href="https://www.facebook.com" target="_blank">
+                  <i class="fab fa-facebook-f white-text mr-4"> </i>
+                </a>
+                <!-- Twitter -->
+                <a class="tw-ic" href="https://www.twitter.com" target="_blank">
+                  <i class="fab fa-twitter white-text mr-4"> </i>
+                </a>
+                <!-- Google +-->
+                <a class="gplus-ic" href="https://www.google.com" target="_blank">
+                  <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                </a>
+                <!--Linkedin -->
+                <a class="li-ic" href="https://www.linkedin.com" target="_blank">
+                  <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                </a>
+                <!--Instagram-->
+                <a class="ins-ic" href="https://www.instagram.com" target="_blank">
+                  <i class="fab fa-instagram white-text"> </i>
+                </a>
+      
+              </div>
+              <!-- Grid column -->
+      
+            </div>
+            <!-- Grid row-->
+      
+          </div>
+        </div>
+      
+        <!-- Footer Links -->
+        <div class="container text-center text-md-left mt-5">
+      
+          <!-- Grid row -->
+          <div class="row mt-3">
+      
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+      
+              <!-- Content -->
+              <h6 class="text-uppercase font-weight-bold">Wilson Sport Good</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>The Wilson Sporting Goods Company is an English sports equipment manufacturer based in London, Streatham. The Wilson Sporting Goods Company is based in Chicago, Il. not London. Since 2004, it has been a foreign subsidiary of the Finnish group Amer Sports.</p>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">Products</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <a href="#!">Shoes</a>
+              </p>
+              <p>
+                <a href="#!">Tennis Kit</a>
+              </p>
+              <p>
+                <a href="#!">Cricket Kit</a>
+              </p>
+              <p>
+                <a href="#!">Basketball KIt</a>
+              </p>
+      
+            </div>
+            <!-- Grid column -->
+      
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+      
+              <!-- Links -->
+              <h6 class="text-uppercase font-weight-bold">Contact</h6>
+              <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+              <p>
+                <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> wilsonsport@outlook.com</p>
+              <p>
+                <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p>
+                <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+      
+            </div>
+            <!-- Grid column -->
+      
+          </div>
+          <!-- Grid row -->
+      
+        </div>
+        <!-- Footer Links -->
+      
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">&copy 2019-2021 Wilson Sporting Good &regAlright reserved 
+          
+        </div>
+        <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+    
+</body>
+</html>
